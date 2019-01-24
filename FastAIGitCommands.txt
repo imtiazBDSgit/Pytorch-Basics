@@ -1,0 +1,11 @@
+1. Fork it
+2. Clone it -- git clone https://github.com/USERNAME/fastai.git fastai-fork
+3. cd fastai-fork
+4. python tools/run-after-git-clone
+5. Add Upstream -- git remote add upstream https://github.com/fastai/fastai.git
+6. Check it -- git remote -v
+7. Synchronize it
+	a.git fetch upstream
+	b.git checkout master
+	c.git merge --no-edit upstream/master
+	d.git push
