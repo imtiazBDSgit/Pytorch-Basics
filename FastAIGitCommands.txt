@@ -9,3 +9,6 @@
 	b.git checkout master
 	c.git merge --no-edit upstream/master
 	d.git push
+
+8.conda env update -f environment-cpu.yml
+
